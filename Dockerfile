@@ -8,7 +8,6 @@ RUN apk add --update-cache --virtual build-deps --no-cache \
     automake \
     cmake \
     g++ \
-    git \
     libtool \
     libuv \
     linux-headers \
@@ -20,6 +19,7 @@ RUN apk add --update-cache --virtual build-deps --no-cache \
     lua-sec
 
 RUN apk add --update-cache \
+    git \
     libtermkey \
     unibilium
 
