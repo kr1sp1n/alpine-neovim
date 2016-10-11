@@ -37,4 +37,4 @@ RUN git clone https://github.com/neovim/neovim.git nvim && \
     rm -rf nvim && \
     apk del build-deps
 
-ENTRYPOINT /usr/local/bin/nvim
+ENTRYPOINT nvim
